@@ -5,12 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'helvetica';
 }
 
 body{
     background: #fffdd0;
-    
 }
 html{
     scroll-behavior: smooth;
@@ -70,6 +69,7 @@ nav{
     font-size: 30px;
     font-weight: 600;
     color: #fffdd0;
+    text-align: left;
 }
 sup{
     font-size: 5px;
@@ -606,5 +606,20 @@ footer{
     }
     .input-field{
         width: 100%;
+    }
+    .scroll-btn{
+        display: sticky;
+    }
+    .footer-social{
+        display: flex;
+        gap: 10px;
+    }
+    .footer-menu-list{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: -15px;
+        text-align: center;
+        display: inline-block;
     }
 }
